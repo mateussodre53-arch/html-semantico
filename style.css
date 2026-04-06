@@ -1,4 +1,6 @@
-*{margin: ;}
+body {
+    background-color: #dcdcdc;
+}
 header{
     border: 3px solid #BD081C;
     background-color:  #FFC8AE;
@@ -15,7 +17,6 @@ nav{
     height: 111px;
     margin-left: 50px;
     margin-right: 20px;
-   
 }
 main{
     border: 3px solid #BD081C;
@@ -25,7 +26,6 @@ main{
     height: 561px;
     margin: auto;
     display: flex;
-  
 }
 
 article{
@@ -33,7 +33,7 @@ article{
     background-color: #DDDDDD;
     color: #FFFF;
     width: 980px;
-    height: 520px;
+    height: 500px;
     margin: 20px; 
 }
 
@@ -43,19 +43,19 @@ section{
     width: 900px;
     height: 100px;
     margin: 20px;
-    padding: 10px;
 }
 
 aside{
     border: 3px solid #464646;
     background-color: #DDDDDD;
-    width: 15%;
-    height: 520px;
+    width: 17%;
+    height: 500px;
     margin: 20px;
 }
 
 footer{
     border: #BD081C;
+    border: 3px solid #BD081C;
     background-color: #FFC8AE;
     color: #FFFF;
     width: 1264px;
@@ -75,7 +75,7 @@ header > p{
 }
 
 nav> p{
-    background-color: #BD081C;
+    background-color: #598527;
     color: #FFFF;
     width: 79px;
     height: 30px;
@@ -97,7 +97,7 @@ main> p{
 }
 
 article> p{
-    background-color: #BD081C;
+    background-color: #464646;
     color: #FFFF;
     width: 79px;
     height: 30px;
@@ -108,7 +108,7 @@ article> p{
 }
 
 section> p{
-    background-color: #BD081C;
+    background-color: #0F62A4;
     color: #FFFF;
     width: 79px;
     height: 30px;
@@ -119,7 +119,7 @@ section> p{
 }
 
 aside> p{
-    background-color: #BD081C;
+    background-color: #464646;
     color: #FFFF;
     width: 79px;
     height: 30px;
@@ -129,3 +129,13 @@ aside> p{
     margin-top: 0;
 }
 
+footer> p{
+    background-color: #BD081C;
+    color: #FFFF;
+    width: 79px;
+    height: 30px;
+    font-size: 23.8px;
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 0;
+}
